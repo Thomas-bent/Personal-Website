@@ -8,7 +8,7 @@
     margin-top: 5vh;
 }
 .welcome-flex > .welcome-to-site {
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
 }
 
@@ -17,6 +17,7 @@
 }
 .check-out-github-paragraph {
     text-align: center;
+    text-transform: capitalize;
 }
 .check-out-github-centered {
     display: flex;
