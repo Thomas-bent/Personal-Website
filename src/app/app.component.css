@@ -10,6 +10,7 @@
 .welcome-flex > .welcome-to-site {
     text-transform: capitalize;
     text-align: center;
+    font-size: 1.3rem;
 }
 
 .check-out-github {
@@ -18,6 +19,7 @@
 .check-out-github-paragraph {
     text-align: center;
     text-transform: capitalize;
+    font-size: 1.3rem;
 }
 .check-out-github-centered {
     display: flex;
