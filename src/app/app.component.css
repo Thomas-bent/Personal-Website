@@ -1,0 +1,49 @@
+.main-container-app {
+    width: 100vw;
+    height: auto;
+}
+.welcome-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.welcome-flex > .welcome-to-site {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.check-out-github {
+    margin-top: 5vh;
+}
+.check-out-github-paragraph {
+    text-align: center;
+}
+.check-out-github-centered {
+    display: flex;
+    justify-content: center;
+}
+.socials-grid-layout {
+    margin-top: 3vh;
+    width: 15vw;
+    height: 15vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.check-out-github-centered > .socials-grid-layout > button {
+    margin: 0.5vw;
+    margin-left: 50%;
+    transform: translate(-50%);
+    min-width: 3rem;
+    min-height: 3rem;
+    width: 5vw;
+    height: 5vw;
+    border: none;
+    background-color: #f5f5f5;
+    box-shadow: 20px 20px 35px #d0d0d0, -20px -20px 35px #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.check-out-github-centered > .socials-grid-layout > button:hover {
+    transform: translate(-50%) scale(110%);
+}
