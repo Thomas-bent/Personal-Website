@@ -70,7 +70,7 @@
     left: 20px;
     transform: translate(-20%);
 }
-.menu-list-items > svg{
+.menu-list-items > svg {
     transform: scale(150%);
 }
 @media only screen and (max-width: 800px) {
@@ -118,7 +118,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
-.check-out-github-centered > .socials-grid-layout > button {
+.check-out-github-centered > .socials-grid-layout > a > button {
     margin: 0.5rem 1rem;
     margin-left: 50%;
     transform: translate(-50%);
@@ -132,6 +132,6 @@
     border-radius: 5px;
     cursor: pointer;
 }
-.check-out-github-centered > .socials-grid-layout > button:hover {
+.check-out-github-centered > .socials-grid-layout > a > button:hover {
     transform: translate(-50%) scale(110%);
 }
